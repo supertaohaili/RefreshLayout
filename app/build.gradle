@@ -26,5 +26,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile rootProject.ext.dependencies["appcompat-v7"]
-    compile project(':library')
+//    compile project(':library')
+    compile 'com.github.supertaohaili:RefreshLayout:1.0.0'
 }
